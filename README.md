@@ -7,7 +7,7 @@ Entire steps has been mentioned as follows :
 So, firstly we have taken a dataset of images for people with & without mask with around 1300 images. Thanks to Github (Prajna's Dataset) for helping me getting the data.
 
 ## Training the model for Mask Detection
-We have used the concept of Transfer Learning for Model creation. We have not created the model from scratch but we used the MobileNetV2 model as the base model & then trained it on our dataset so as to fine tune the existing model which saved us a lot of time. This process of using pretrained model & getting it fine-tuned with correct weights is called "Transfer Learning". 
+We have used the concept of Transfer Learning for Model creation. We have not created the model from scratch but we used the MobileNetV2 model as the base model & then trained it on our dataset so as to fine tune the existing model which saved us a lot of time. This process of using pretrained model & getting it fine-tuned with correct weights is called "Transfer Learning". We can create the model from scratch also but that takes more time in training as compared to our current approach.
 
 ## Face Detection
 After training the mask detection model, we used caffe model to detect faces (we can use Haarcascade classifier as well) on real time images or video & then on face detected, we deployed the model we have trained to predict if person has wear mask or not on the face. So, we have followed two- step process here.
