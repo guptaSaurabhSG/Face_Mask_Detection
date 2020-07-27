@@ -4,7 +4,7 @@ As we know, there are couple of pre-trained Face Detection models available like
 
 Entire steps has been mentioned as follows :
 ## Dataset of images of people with Mask & Wihout Mask.
-So, firstly we have taken a dataset of images for people with & without mask with around 2000 images. Thanks to Github (Prajna's Dataset) for helping me getting the data.
+So, firstly we have taken a dataset of images for people with & without mask with around 1300 images. Thanks to Github (Prajna's Dataset) for helping me getting the data.
 
 ## Training the model for Mask Detection
 We have used the concept of Transfer Learning for Model creation. We have not created the model from scratch but we used the MobileNetV2 model as the base model & then trained it on our dataset so as to fine tune the existing model which saved us a lot of time. This process of using pretrained model & getting it fine-tuned with correct weights is called "Transfer Learning". 
