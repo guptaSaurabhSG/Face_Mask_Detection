@@ -1,4 +1,4 @@
-# Face Mask detection on Face using Pretrained Model (Transfer Learning)
+# Face Mask detection using Deep Learning (Transfer Learning)
 
 As we know, there are couple of pre-trained Face Detection models available like Caffe Model or we can use Opencv Haar-cascasde classifiers for face detection. But how about if the model is able to detect mask as well if a person has wear mask or not during this pandemic.
 
